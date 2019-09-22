@@ -102,7 +102,12 @@ body {
     }
     .smalltext{
       padding-top: 5px;
-      font-size: 5px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
   }
 }
 
@@ -123,7 +128,12 @@ body {
     }
     .smalltext{
       padding-top: 5px;
-      font-size: 5px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
   }
   }
 
@@ -141,11 +151,15 @@ body {
     }
     h3 {
       font-size: 20px;
+      .smalltext{
+        padding-top: 5px;
+        font-size: 15px;
     }
-    .smalltext{
-      padding-top: 5px;
-      font-size: 5px;
-  }
+    #clockdiv{
+      font-family: sans-serif;
+      color: navy;
+      font-size: 20px;
+    }
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
@@ -166,7 +180,12 @@ body {
     }
     .smalltext{
       padding-top: 5px;
-      font-size: 5px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
   }
 }
 
@@ -187,7 +206,12 @@ body {
     }
     .smalltext{
       padding-top: 5px;
-      font-size: 5px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
   }
 }
 
@@ -208,7 +232,12 @@ body {
     }
     .smalltext{
       padding-top: 5px;
-      font-size: 5px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
   }
 }
 
@@ -230,7 +259,12 @@ body {
     }
     .smalltext{
       padding-top: 5px;
-      font-size: 5px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
   }
 }
 
@@ -251,7 +285,12 @@ body {
     }
     .smalltext{
       padding-top: 5px;
-      font-size: 5px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
   }
 }
 
@@ -272,7 +311,12 @@ body {
     }
     .smalltext{
       padding-top: 5px;
-      font-size: 5px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
   }
 }
 
@@ -294,7 +338,12 @@ body {
     }
     .smalltext{
       padding-top: 5px;
-      font-size: 5px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
   }
 }
 
@@ -315,7 +364,12 @@ body {
     }
     .smalltext{
       padding-top: 5px;
-      font-size: 5px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
   }
 }
 
@@ -336,6 +390,11 @@ body {
     }
     .smalltext{
       padding-top: 5px;
-      font-size: 5px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
   }
 }
