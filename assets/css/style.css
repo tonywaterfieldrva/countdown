@@ -92,9 +92,18 @@ body {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
-      font-size: 40px;
-    
+      font-size: 35px;
     }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 5px;
+      font-size: 5px;
+  }
 }
 
 /* Portrait */
@@ -104,8 +113,18 @@ body {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     h1 {
-      font-size: 40px;
-       }
+      font-size: 35px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 5px;
+      font-size: 5px;
+  }
   }
 
 /* Landscape */
@@ -115,8 +134,18 @@ body {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     h1 {
-      font-size: 40px;
-      }
+      font-size: 35px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 5px;
+      font-size: 5px;
+  }
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
@@ -127,9 +156,18 @@ body {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
     h1 {
-      font-size: 40px;
-
+      font-size: 35px;
     }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 5px;
+      font-size: 5px;
+  }
 }
 
 /* Portrait */
@@ -139,9 +177,18 @@ body {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     h1 {
-      font-size: 40px;
-     
+      font-size: 35px;
     }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 5px;
+      font-size: 5px;
+  }
 }
 
 /* Landscape */
@@ -151,9 +198,18 @@ body {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     h1 {
-      font-size: 40px;
-    
+      font-size: 35px;
     }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 5px;
+      font-size: 5px;
+  }
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
@@ -164,9 +220,18 @@ body {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     h1 {
-      font-size: 40px;
-    
+      font-size: 35px;
     }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 5px;
+      font-size: 5px;
+  }
 }
 
 /* Portrait */
@@ -176,9 +241,18 @@ body {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
     h1 {
-      font-size: 40px;
-  
+      font-size: 35px;
     }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 5px;
+      font-size: 5px;
+  }
 }
 
 /* Landscape */
@@ -188,9 +262,18 @@ body {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
     h1 {
-      font-size: 40px;
-  
+      font-size: 35px;
     }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 5px;
+      font-size: 5px;
+  }
 }
 
 /* ----------- iPhone X ----------- */
@@ -200,7 +283,19 @@ body {
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-
+    h1 {
+      font-size: 35px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 5px;
+      font-size: 5px;
+  }
 }
 
 /* Portrait */
@@ -209,7 +304,19 @@ body {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
-
+    h1 {
+      font-size: 35px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 5px;
+      font-size: 5px;
+  }
 }
 
 /* Landscape */
@@ -218,5 +325,17 @@ body {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
-
+    h1 {
+      font-size: 35px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 5px;
+      font-size: 5px;
+  }
 }
