@@ -1,0 +1,60 @@
+body {
+     
+    background-size: cover;
+      }
+      body{
+        text-align: center;
+        font-family: 'Courgette', cursive;
+        font-weight: 100;
+    }
+    h1 {
+        font-size: 70px;
+        font-weight: bold;
+        color: navy;
+ 
+        font-family: 'Courgette', cursive;
+ 
+        padding-top: 50px;
+    }
+    h2 {
+        font-size: 60px;
+        font-weight: bolder;
+        color: navy;
+        font-family: 'Courgette', cursive;
+    } 
+    h3 {
+        color: navy;
+        font-weight: bold;
+        font-family: 'Courgette', cursive;
+        font-size: 40px;
+    }
+    #clockdiv{
+        font-family: sans-serif;
+        color: navy;
+        display: inline-block;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 70px;
+  
+  
+    }
+    
+    #clockdiv > div{
+        padding: 18px;
+        border-radius: 3px;
+        background: transparent;
+        display: inline-block;
+    }
+    
+    #clockdiv div > span{
+        padding: 10px;
+        border-radius: 3px;
+        background: transparent;
+        display: inline-block;
+    }
+    
+    .smalltext{
+        padding-top: 5px;
+        font-size: 16px;
+    }
+    
