@@ -93,6 +93,7 @@ body {
   and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
       font-size: 35px;
+      padding-top: 5px;
     }
     h2 { 
       font-size: 25px;
@@ -120,6 +121,7 @@ body {
   and (orientation: portrait) {
     h1 {
       font-size: 35px;
+      padding-top: 5px;
     }
     h2 { 
       font-size: 25px;
@@ -147,12 +149,14 @@ body {
   and (orientation: landscape) {
     h1 {
       font-size: 35px;
+      padding-top: 5px;
     }
     h2 { 
       font-size: 25px;
     }
     h3 {
       font-size: 20px;
+    }
       .smalltext{
         padding-top: 5px;
         font-size: 15px;
@@ -174,6 +178,7 @@ body {
   and (-webkit-min-device-pixel-ratio: 2) { 
     h1 {
       font-size: 35px;
+      padding-top: 5px;
     }
     h2 { 
       font-size: 25px;
@@ -201,6 +206,7 @@ body {
   and (orientation: portrait) { 
     h1 {
       font-size: 35px;
+      padding-top: 5px;
     }
     h2 { 
       font-size: 25px;
@@ -228,6 +234,7 @@ body {
   and (orientation: landscape) { 
     h1 {
       font-size: 35px;
+      padding-top: 5px;
     }
     h2 { 
       font-size: 25px;
@@ -256,6 +263,7 @@ body {
   and (-webkit-min-device-pixel-ratio: 3) { 
     h1 {
       font-size: 35px;
+      padding-top: 5px;
     }
     h2 { 
       font-size: 25px;
@@ -283,6 +291,7 @@ body {
   and (orientation: portrait) { 
     h1 {
       font-size: 35px;
+      padding-top: 5px;
     }
     h2 { 
       font-size: 25px;
@@ -310,6 +319,7 @@ body {
   and (orientation: landscape) { 
     h1 {
       font-size: 35px;
+      padding-top: 5px;
     }
     h2 { 
       font-size: 25px;
@@ -338,6 +348,7 @@ body {
   and (-webkit-min-device-pixel-ratio: 3) { 
     h1 {
       font-size: 35px;
+      padding-top: 5px;
     }
     h2 { 
       font-size: 25px;
@@ -365,6 +376,7 @@ body {
   and (orientation: portrait) { 
     h1 {
       font-size: 35px;
+      padding-top: 5px;
     }
     h2 { 
       font-size: 25px;
@@ -393,6 +405,7 @@ body {
   and (orientation: landscape) { 
     h1 {
       font-size: 35px;
+      padding-top: 5px;
     }
     h2 { 
       font-size: 25px;
