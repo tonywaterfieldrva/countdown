@@ -44,13 +44,17 @@ body {
         border-radius: 3px;
         background: transparent;
         display: inline-block;
-    }
+        border: solid;
+        border-color: black;
+      }
     
     #clockdiv div > span{
         padding: 10px;
         border-radius: 3px;
         background: transparent;
         display: inline-block;
+        border: solid;
+        border-color: red;
     }
     
     .smalltext{
