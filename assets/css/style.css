@@ -31,7 +31,7 @@ body {
     #clockdiv{
         font-family: sans-serif;
         color: navy;
-        /* display: inline-block; */
+        display: inline-block;
         font-weight: bolder;
         text-align: center;
         font-size: 70px;
@@ -44,17 +44,387 @@ body {
         border-radius: 3px;
         background: transparent;
         display: inline-block;
-    }
+        border: solid;
+        border-color: black;
+      }
     
     #clockdiv div > span{
         padding: 10px;
         border-radius: 3px;
         background: transparent;
         display: inline-block;
+        border: solid;
+        border-color: red;
     }
     
     .smalltext{
         padding-top: 5px;
         font-size: 16px;
     }
-    
+    /* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    h1 {
+      font-size: 35px;
+      padding-top: 5px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 2px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
+    padding: 3px;
+  }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    h1 {
+      font-size: 35px;
+      padding-top: 5px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 2px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
+    padding: 3px;
+  }
+  }
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    h1 {
+      font-size: 35px;
+      padding-top: 5px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+      .smalltext{
+        padding-top: 2px;
+        font-size: 15px;
+    }
+    #clockdiv{
+      font-family: sans-serif;
+      color: navy;
+      font-size: 20px;
+      padding: 3px;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    h1 {
+      font-size: 35px;
+      padding-top: 5px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 2px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
+    padding: 3px;
+  }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    h1 {
+      font-size: 35px;
+      padding-top: 5px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 2px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
+    padding: 3px;
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    h1 {
+      font-size: 35px;
+      padding-top: 5px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 2px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
+    padding: 3px;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    h1 {
+      font-size: 35px;
+      padding-top: 5px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 2px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
+    padding: 3px;
+  }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    h1 {
+      font-size: 35px;
+      padding-top: 5px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 2px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
+    padding: 3px;
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    h1 {
+      font-size: 35px;
+      padding-top: 5px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 2px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
+    padding: 3px;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    h1 {
+      font-size: 35px;
+      padding-top: 5px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 2px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
+    padding: 3px;
+  }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    h1 {
+      font-size: 35px;
+      padding-top: 5px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 2px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
+    padding: 3px;
+  }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    h1 {
+      font-size: 35px;
+      padding-top: 5px;
+    }
+    h2 { 
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .smalltext{
+      padding-top: 2px;
+      font-size: 15px;
+  }
+  #clockdiv{
+    font-family: sans-serif;
+    color: navy;
+    font-size: 20px;
+    padding: 3px;
+  }
+}
