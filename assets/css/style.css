@@ -44,8 +44,8 @@ body {
         border-radius: 3px;
         background: transparent;
         display: inline-block;
-        border: solid;
-        border-color: black;
+        /* border: solid; */
+        /* border-color: black; */
       }
     
     #clockdiv div > span{
@@ -53,8 +53,8 @@ body {
         border-radius: 3px;
         background: transparent;
         display: inline-block;
-        border: solid;
-        border-color: red;
+        /* border: solid; */
+        /* border-color: red; */
     }
     
     .smalltext{
